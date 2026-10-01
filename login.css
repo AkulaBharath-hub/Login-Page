@@ -1,0 +1,83 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#E8ECF1;
+}
+.box{
+background: #E6EBF2;
+box-shadow: 12px 12px 24px #C1C7D0,-12px -12px 24px #FFFFFF;
+width: 400px;
+height: 400px;
+}
+#P{
+    margin-left: 35%;
+}
+.login h1{
+    color: #1E293B;
+    margin-left: 38%;
+    margin-top: 10%;
+
+}
+.username{
+    margin-top: 20%;
+    margin-left: 25%;
+}
+.username input{
+    border: none;
+    padding: 3%;
+    background: #E6EBF2;
+    color: #1E293B;
+    box-shadow:inset 5px 5px 10px #C1C7D0,inset -5px -5px 10px #FFFFFF;
+    
+}
+
+.username input::placeholder{
+    color: #64748B;
+}
+.password{
+    margin-top: 2%;
+      margin-left: 25%;
+}
+.password::placeholder{
+    color: #64748B;
+}
+.password input{
+    border: none;
+     padding: 3%;
+      background: #E6EBF2;
+    color: #1E293B;
+    box-shadow:inset 5px 5px 10px #C1C7D0,inset -5px -5px 10px #FFFFFF;
+
+}
+.email{
+    margin-top: 2%;
+      margin-left: 25%;
+}
+.email::placeholder{
+    color: #64748B;
+}
+.email input{
+    border: none;
+     padding: 3%;
+      background: #E6EBF2;
+    color: #1E293B;
+    box-shadow:inset 5px 5px 10px #C1C7D0,inset -5px -5px 10px #FFFFFF;
+
+}
+.button{
+      margin-left: 35%;
+       padding: 3%;
+}
+.button button{
+    border: none;
+     padding: 3%;
+     background: #2563EB;
+     color: #FFFFFF;
+     box-shadow: 6px 6px 12px #C1C7D0,-6px -6px 12px #FFFFFF;
+}
+.button button:active{
+    box-shadow: inset 4px 4px 8px #1D4ED8,inset -4px -4px 8px #3B82F6;
+}
+
